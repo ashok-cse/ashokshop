@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../.svelte-kit/adapter-node/nodes/36.js"],
+  "sourcesContent": ["\n\nexport const index = 36;\nexport const component = async () => (await import('../entries/pages/(marketing)/p/payments-returns/_page.svelte.js')).default;\nexport const file = '_app/immutable/components/pages/(marketing)/p/payments-returns/_page.svelte-81f9089b.js';\nexport const imports = [\"_app/immutable/components/pages/(marketing)/p/payments-returns/_page.svelte-81f9089b.js\",\"_app/immutable/chunks/index-98fbb2d4.js\",\"_app/immutable/chunks/index-54abeec4.js\",\"_app/immutable/chunks/index-87090d37.js\",\"_app/immutable/chunks/hash-it.esm-eecb4324.js\",\"_app/immutable/chunks/website-53ccb8f7.js\"];\nexport const stylesheets = [];\n"],
+  "mappings": ";;;AAEO,IAAM,QAAQ;AACd,IAAM,YAAY,aAAa,MAAM,OAAO,+BAAoE;AAChH,IAAM,OAAO;AACb,IAAM,UAAU,CAAC,2FAA0F,2CAA0C,2CAA0C,2CAA0C,iDAAgD,2CAA2C;AACpU,IAAM,cAAc,CAAC;",
+  "names": []
+}

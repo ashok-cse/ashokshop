@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../.svelte-kit/adapter-node/chunks/website.js"],
+  "sourcesContent": ["const id = \"62b00e15c4899dc7b1f78cb1\";\nconst domain = \"https://kitcommerce.tech\";\nconst email = \"hi@misiki.in\";\nconst address = \"#22, Global Village, Rourkela, Odisha - 769002, India\";\nconst description = \"Customized Mobile Covers India: KitCommerce is the most beneficial customized mobile cover printing online store at which it is easy to design custom phone cases\";\nconst phone = \"+91-8249028220\";\nconst websiteLegalName = \"Misiki Technologies\";\nconst entity = \"KitCommerce\";\nconst websiteName = \"KitCommerce\";\nconst siteTitle = \"KitCommerce\";\nconst siteShortTitle = \"KitCommerce\";\nconst ogLanguage = \"en_US\";\nconst siteLanguage = \"en-US\";\nexport {\n  description as a,\n  address as b,\n  websiteLegalName as c,\n  domain as d,\n  email as e,\n  siteTitle as f,\n  entity as g,\n  siteShortTitle as h,\n  id as i,\n  ogLanguage as o,\n  phone as p,\n  siteLanguage as s,\n  websiteName as w\n};\n"],
+  "mappings": ";AAAA,IAAM,KAAK;AACX,IAAM,SAAS;AACf,IAAM,QAAQ;AACd,IAAM,UAAU;AAChB,IAAM,cAAc;AACpB,IAAM,QAAQ;AACd,IAAM,mBAAmB;AACzB,IAAM,SAAS;AACf,IAAM,cAAc;AACpB,IAAM,YAAY;AAClB,IAAM,iBAAiB;AACvB,IAAM,aAAa;AACnB,IAAM,eAAe;",
+  "names": []
+}

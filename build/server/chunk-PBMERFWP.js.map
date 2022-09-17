@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../.svelte-kit/adapter-node/chunks/BackToTop.js"],
+  "sourcesContent": ["import { c as create_ssr_component } from \"./index.js\";\nconst BackToTop_svelte_svelte_type_style_lang = \"\";\nconst css = {\n  code: \".back-to-top.svelte-1mzg1xq{bottom:70px;position:fixed;right:20px;transition:opacity .5s,visibility .5s;-webkit-user-select:none;-moz-user-select:none;user-select:none;z-index:99}\",\n  map: null\n};\nconst BackToTop = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  let { showOnPx = 150 } = $$props;\n  if ($$props.showOnPx === void 0 && $$bindings.showOnPx && showOnPx !== void 0)\n    $$bindings.showOnPx(showOnPx);\n  $$result.css.add(css);\n  return `\n\n${``}`;\n});\nexport {\n  BackToTop as B\n};\n"],
+  "mappings": ";;;;;AAEA,IAAM,MAAM;AAAA,EACV,MAAM;AAAA,EACN,KAAK;AACP;AACA,IAAM,YAAY,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AAC/E,MAAI,EAAE,WAAW,IAAI,IAAI;AACzB,MAAI,QAAQ,aAAa,UAAU,WAAW,YAAY,aAAa;AACrE,eAAW,SAAS,QAAQ;AAC9B,WAAS,IAAI,IAAI,GAAG;AACpB,SAAO;AAAA;AAAA,EAEP;AACF,CAAC;",
+  "names": []
+}

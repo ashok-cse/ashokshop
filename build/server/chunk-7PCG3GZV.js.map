@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../.svelte-kit/adapter-node/chunks/store.js"],
+  "sourcesContent": ["import { w as writable } from \"./index3.js\";\nimport Cookie from \"cookie-universal\";\nCookie();\nconst loginUrl = writable(\"/auth/login\");\nconst loadingDelayed = writable(false);\nexport {\n  loginUrl as a,\n  loadingDelayed as l\n};\n"],
+  "mappings": ";;;;;AACA,OAAO,YAAY;AACnB,OAAO;AACP,IAAM,WAAW,SAAS,aAAa;AACvC,IAAM,iBAAiB,SAAS,KAAK;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../.svelte-kit/adapter-node/chunks/Error.js"],
+  "sourcesContent": ["import { c as create_ssr_component, e as each, d as escape } from \"./index.js\";\nconst Error = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  let { err } = $$props;\n  if ($$props.err === void 0 && $$bindings.err && err !== void 0)\n    $$bindings.err(err);\n  return `${err ? `<div class=\"${\"my-2 text-xs font-medium text-red-600\"}\">${(err == null ? void 0 : err.length) ? `${each(err, (e) => {\n    return `<span>${escape(e.message)}</span>`;\n  })}` : `${err.message ? `<span>${escape(err.message)}</span>` : `<span>${escape(JSON.stringify(err, null, 2))}</span>`}`}</div>` : ``}`;\n});\nexport {\n  Error as E\n};\n"],
+  "mappings": ";;;;;;;AACA,IAAM,QAAQ,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AAC3E,MAAI,EAAE,IAAI,IAAI;AACd,MAAI,QAAQ,QAAQ,UAAU,WAAW,OAAO,QAAQ;AACtD,eAAW,IAAI,GAAG;AACpB,SAAO,GAAG,MAAM,eAAe,6CAA6C,OAAO,OAAO,SAAS,IAAI,UAAU,GAAG,KAAK,KAAK,CAAC,MAAM;AACnI,WAAO,SAAS,OAAO,EAAE,OAAO;AAAA,EAClC,CAAC,MAAM,GAAG,IAAI,UAAU,SAAS,OAAO,IAAI,OAAO,aAAa,SAAS,OAAO,KAAK,UAAU,KAAK,MAAM,CAAC,CAAC,uBAAuB;AACrI,CAAC;",
+  "names": []
+}
