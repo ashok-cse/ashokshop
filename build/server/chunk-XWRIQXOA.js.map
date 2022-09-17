@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.svelte-kit/adapter-node/chunks/PageTransitions.js"],
-  "sourcesContent": ["import { c as create_ssr_component } from \"./index.js\";\n/* empty css                                               */const css = {\n  code: \".transition-outer.svelte-1bh66kf{display:grid;grid-template:1fr 1fr}.transition-inner.svelte-1bh66kf{grid-column:1;grid-row:1}\",\n  map: null\n};\nconst PageTransitions = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  let { url = \"\" } = $$props;\n  if ($$props.url === void 0 && $$bindings.url && url !== void 0)\n    $$bindings.url(url);\n  $$result.css.add(css);\n  return `\n\n\n\n\n<div class=\"${\"transition-outer svelte-1bh66kf\"}\"><div class=\"${\"transition-inner svelte-1bh66kf\"}\" style=\"${\"flex flex-col items-center justify-center text-center\"}\">${slots.default ? slots.default({}) : ``}</div>\n</div>`;\n});\nexport {\n  PageTransitions as P\n};\n"],
-  "mappings": ";;;;;AAC6D,IAAM,MAAM;AAAA,EACvE,MAAM;AAAA,EACN,KAAK;AACP;AACA,IAAM,kBAAkB,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AACrF,MAAI,EAAE,MAAM,GAAG,IAAI;AACnB,MAAI,QAAQ,QAAQ,UAAU,WAAW,OAAO,QAAQ;AACtD,eAAW,IAAI,GAAG;AACpB,WAAS,IAAI,IAAI,GAAG;AACpB,SAAO;AAAA;AAAA;AAAA;AAAA;AAAA,cAKK,kDAAkD,6CAA6C,4DAA4D,MAAM,UAAU,MAAM,QAAQ,CAAC,CAAC,IAAI;AAAA;AAE7M,CAAC;",
-  "names": []
-}

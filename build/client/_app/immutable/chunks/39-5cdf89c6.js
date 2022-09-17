@@ -1,1 +1,0 @@
-import{default as a}from"../components/pages/(marketing)/p/terms-conditions/_page.svelte-9ff98e0c.js";import"./index-98fbb2d4.js";import"./index-54abeec4.js";import"./index-87090d37.js";import"./hash-it.esm-eecb4324.js";import"./website-53ccb8f7.js";export{a as component};

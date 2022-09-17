@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.svelte-kit/adapter-node/chunks/PreloadingIndicator.js"],
-  "sourcesContent": ["import { c as create_ssr_component } from \"./index.js\";\n/* empty css                                                   */const css = {\n  code: \".progress-container.svelte-13nz7e1{height:4px;width:100%;z-index:999}.progress.svelte-13nz7e1,.progress-container.svelte-13nz7e1{left:0;position:absolute;top:0}.progress.svelte-13nz7e1{background-color:#5cb85c;height:100%;transition:width .4s}.fade.svelte-13nz7e1{-webkit-animation:svelte-13nz7e1-fade .4s;animation:svelte-13nz7e1-fade .4s;background-color:hsla(0,0%,100%,.3);height:100%;pointer-events:none;position:fixed;width:100%;z-index:998}@-webkit-keyframes svelte-13nz7e1-fade{0%{opacity:0}to{opacity:1}}@keyframes svelte-13nz7e1-fade{0%{opacity:0}to{opacity:1}}\",\n  map: null\n};\nconst PreloadingIndicator = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  $$result.css.add(css);\n  return `${``}\n\n${``}`;\n});\nexport {\n  PreloadingIndicator as P\n};\n"],
-  "mappings": ";;;;;AACiE,IAAM,MAAM;AAAA,EAC3E,MAAM;AAAA,EACN,KAAK;AACP;AACA,IAAM,sBAAsB,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AACzF,WAAS,IAAI,IAAI,GAAG;AACpB,SAAO,GAAG;AAAA;AAAA,EAEV;AACF,CAAC;",
-  "names": []
-}

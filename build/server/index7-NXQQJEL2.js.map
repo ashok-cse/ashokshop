@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.svelte-kit/adapter-node/chunks/index7.js"],
-  "sourcesContent": ["import \"cookie\";\nimport \"./store.js\";\nimport \"./index3.js\";\nimport \"./index.js\";\nimport \"cookie-universal\";\nconst handle = async ({ event, resolve }) => {\n  const request = event.request;\n  request.headers.delete(\"connection\");\n  const response = await resolve(event);\n  return response;\n};\nconst getSession = ({ locals }) => {\n};\nexport {\n  getSession,\n  handle\n};\n"],
-  "mappings": ";;;;;;;;;;;AAAA,oBAAO;AAIP,OAAO;AACP,IAAM,SAAS,OAAO,EAAE,OAAO,QAAQ,MAAM;AAC3C,QAAM,UAAU,MAAM;AACtB,UAAQ,QAAQ,OAAO,YAAY;AACnC,QAAM,WAAW,MAAM,QAAQ,KAAK;AACpC,SAAO;AACT;AACA,IAAM,aAAa,CAAC,EAAE,OAAO,MAAM;AACnC;",
-  "names": []
-}

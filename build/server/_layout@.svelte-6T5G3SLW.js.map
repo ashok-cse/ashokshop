@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.svelte-kit/adapter-node/entries/pages/(app)/autosuggest/_layout@.svelte.js"],
-  "sourcesContent": ["import { c as create_ssr_component, b as subscribe, v as validate_component } from \"../../../../chunks/index.js\";\nimport { n as navigating } from \"../../../../chunks/stores.js\";\nimport { P as PreloadingIndicator } from \"../../../../chunks/PreloadingIndicator.js\";\n/* empty css                                                                    */const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {\n  let $navigating, $$unsubscribe_navigating;\n  $$unsubscribe_navigating = subscribe(navigating, (value) => $navigating = value);\n  $$unsubscribe_navigating();\n  return `${$navigating ? `${validate_component(PreloadingIndicator, \"PreloadingIndicator\").$$render($$result, {}, {}, {})}` : ``}\n\n${slots.default ? slots.default({}) : ``}`;\n});\nexport {\n  Layout as default\n};\n"],
-  "mappings": ";;;;;;;;;;;;;;AAGkF,IAAM,SAAS,qBAAqB,CAAC,UAAU,SAAS,YAAY,UAAU;AAC9J,MAAI,aAAa;AACjB,6BAA2B,UAAU,YAAY,CAAC,UAAU,cAAc,KAAK;AAC/E,2BAAyB;AACzB,SAAO,GAAG,cAAc,GAAG,mBAAmB,qBAAqB,qBAAqB,EAAE,SAAS,UAAU,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,MAAM;AAAA;AAAA,EAE7H,MAAM,UAAU,MAAM,QAAQ,CAAC,CAAC,IAAI;AACtC,CAAC;",
-  "names": []
-}

@@ -1,1 +1,0 @@
-import{default as f}from"../components/pages/(app)/autosuggest/_layout@.svelte-faa2e3f6.js";import"./index-98fbb2d4.js";import"./stores-ae48d658.js";import"./singletons-44c3e40a.js";import"./index-7c2e2153.js";import"./PreloadingIndicator-865eb969.js";/* empty css                                                          */export{f as component};
